@@ -1,0 +1,719 @@
+<style>
+        /*
+        Existing styles here
+        */
+>>>>>>> REPLACE
+
+```
+```
+
+```diff
+<<<<<<< SEARCH
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Ekosistem Pendidikan Terapan Berbasis Praktik Nyata</h1>
+            <p>Mengintegrasikan pelatihan keterampilan, literasi keuangan mikro, dan teknologi digital dalam skema pemberdayaan komunitas.</p>
+            <div>
+                <a href="#services" class="btn">Lihat Layanan Kami</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+>>>>>>> REPLACE
+```
+
+```
+
+```diff
+<<<<<<< SEARCH
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <div class="logo-img">XYZ</div>
+                <div class="logo-text">Perusahaan XYZ</div>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang Kami</a>
+                <a href="#services">Layanan</a>
+                <a href="#contact">Kontak</a>
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+            </div>
+            
+                        
+            <div class="copyright">
+                <p>&copy; 2023 Perusahaan XYZ. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+>>>>>>> REPLACE
+```
+
+```
+
+```diff
+<<<<<<< SEARCH
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+>>>>>>> REPLACE
+
+```
+```
+
+
+```diff
+=======
+        
+>>>>>>> REPLACE
+
+```
+
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perusahaan XYZ - Solusi Pendidikan Terapan Berbasis Praktik</title>
+    <style>
+        :root {
+            --primary-dark: #0a2463;
+            --primary-medium: #3e78b2;
+            --primary-light: #d7e3ff;
+            --accent: #ff6b35;
+            --text-dark: #333333;
+            --text-light: #ffffff;
+            --background: #4CAF50;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body {
+            background-color: #4CAF50;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        header {
+            background: #3e9641;
+            color: var(--text-light);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+	    width: 40px;
+            height: 40px;
+             <div class="about-image">
+                    <img src="logoxyz.png">
+        }
+                
+        .logo-text {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+        
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--accent);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-light);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 		    0.5)), url('background.jpg');
+   	    background-size: cover;
+    	    background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 9rem 0;
+    text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: var(--text-light);
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #e65a2b;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background-color: linear-gradient(135deg, #2c3e50, #3498db);
+            border: 2px solid var(--text-light);
+            margin-left: 1rem;
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+        
+        section {
+            padding: 4rem 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        
+        .section-title h2 {
+            font-size: 2rem;
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent);
+            margin: 0 auto;
+        }
+        
+        .about-content {
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+        
+        .about-image {
+            flex: 1;
+            position: relative;
+        }
+        
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .mission-vision {
+            background-color: var(--primary-light);
+            padding: 3rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+        
+        .mission-vision h3 {
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .service-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .service-card:hover .service-image img {
+            transform: scale(1.1);
+        }
+        
+        .service-content {
+            padding: 1.5rem;
+        }
+        
+        .service-content h3 {
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-container {
+            display: flex;
+            gap: 3rem;
+        }
+        
+        .contact-info {
+            flex: 1;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary-dark);
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-details {
+            margin-bottom: 2rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-item i {
+            margin-right: 1rem;
+            color: var(--primary-medium);
+        }
+        
+        .map-container {
+            height: 300px;
+            margin-top: 2rem;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .contact-form {
+            flex: 1;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        footer {
+            background-color: #343a40;
+            color: var(--text-light);
+            padding: 3rem 0 1rem;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .social-links a {
+            color: var(--text-light);
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: var(--accent);
+        }
+        
+        .copyright {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        @media (max-width: 992px) {
+            .about-content,
+            .contact-container {
+                flex-direction: column;
+            }
+            
+            .btn-secondary {
+                margin-left: 0;
+                margin-top: 1rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .card {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background-color: var(--primary-dark);
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem 0;
+                transition: left 0.3s ease;
+            }
+            
+            .nav-links.active {
+                left: 0;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <div class="logo-img">XYZ</div>
+                    <div class="logo-text">Perusahaan XYZ</div>
+                </div>
+                
+                <button class="mobile-menu-btn">☰</button>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Ekosistem Pendidikan Terapan Berbasis Praktik Nyata</h1>
+            <p>Mengintegrasikan pelatihan keterampilan, literasi keuangan mikro, dan teknologi digital dalam skema pemberdayaan komunitas.</p>
+            <div>
+                <a href="#services" class="btn">Lihat Layanan Kami</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Kami</h2>
+                <p>Mengenal lebih dalam tentang Perusahaan XYZ dan visi kami</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Latar Belakang</h3>
+                    <p>Perusahaan XYZ lahir dari keprihatinan terhadap krisis keterampilan di kalangan usia produktif dan ketergantungan masyarakat pada pola konsumsi. Di tengah tingginya angka pengangguran dan masalah sampah organik, XYZ hadir untuk menghadirkan solusi berbasis edukasi terapan dan pemberdayaan ekonomi masyarakat.</p>
+                    
+                    <div class="mission-vision">
+                        <h3>Visi Kami</h3>
+                        <p>Mencetak generasi yang tidak hanya cerdas, tetapi juga unggul secara keterampilan, siap kerja, dan mampu menciptakan lapangan kerja dari rumah.</p>
+                        
+                        <h3>Misi Kami</h3>
+                        <p>Menyelenggarakan program-program inovatif seperti Integrated Eco Farming untuk memanfaatkan sumber daya secara optimal dan berkelanjutan.</p>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="logoxyz.png">
+                </div>
+            </div>
+            
+            <div class="logo-philosophy">
+                <h3>Filosofi Logo</h3>
+                <p>Nama "XYZ" mencerminkan misi kami untuk mencetak sumber daya manusia yang kompeten dan profesional. Warna dominan biru tua dan gradasi biru muda melambangkan kepercayaan, profesionalisme, kemajuan, dan pembaruan.</p>
+                <p>Simbol ikonik berupa topi wisuda (graduation cap) dalam logo kami melambangkan pendidikan sebagai fondasi utama dan komitmen kami untuk mencetak SDM unggul.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Layanan Kami</h2>
+                <p>Solusi inovatif untuk pemberdayaan ekonomi masyarakat</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="magot.jpg" 
+alt="Budidaya maggot Black Soldier Fly">
+                    </div>
+                    <div class="service-content">
+                        <h3>Budidaya Maggot & Pakan Ternak Alternatif</h3>
+                        <p>Fokus pada budidaya Black Soldier Fly (BSF) menggunakan limbah dapur rumah tangga sebagai media budidaya. Menghasilkan produk berupa maggot segar dan kering yang kaya protein untuk pakan unggas dan ikan.</p>
+                        <ul>
+                            <li>Sistem budidaya efektif dan higienis</li>
+                            <li>Mengurangi limbah organik</li>
+                            <li>Protein tinggi untuk pakan ternak</li>
+                            <li>Pelatihan komprehensif</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="cacing.jpg" 
+alt="Budidaya cacing tanah organik">
+                    </div>
+                    <div class="service-content">
+                        <h3>Budidaya Cacing & Pakan Organik</h3>
+                        <p>Mengembangkan budidaya cacing untuk menghasilkan biomassa cacing sebagai pakan ternak. Memanfaatkan limbah organik sebagai pakan cacing dan menghasilkan kascing (bekas cacing) sebagai pupuk organik berkualitas tinggi.</p>
+                        <ul>
+                            <li>Sistem budidaya ramah lingkungan</li>
+                            <li>Pakan alternatif bernutrisi</li>
+                            <li>Produk sampingan berupa pupuk organik</li>
+                            <li>Sistem siklus tertutup</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="ulatsutra.jpg" 
+alt="Budidaya ulat sutra memakan daun singkong">
+                    </div>
+                    <div class="service-content">
+                        <h3>Budidaya Ulat Sutra & Pakan Alternatif Protein</h3>
+                        <p>Budidaya ulat sutra jenis Samia ricini yang pakannya adalah daun singkong. Panen kokon ulat sutra yang dapat diolah menjadi kerajinan atau sumber protein alternatif untuk pakan ternak.</p>
+                        <ul>
+                            <li>Teknik budidaya modern</li>
+                            <li>Sumber protein alternatif</li>
+                            <li>Pemanfaatan daun singkong</li>
+                            <li>Nilai ekonomi tinggi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hubungi Kami</h2>
+                <p>Kami siap menjawab pertanyaan Anda</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i>📍</i>
+                            <div>
+                                <strong>Kantor Pusat</strong>
+                                <p>Jl. Maju Berkarya No. 123, Kota Semarang</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i>🏭</i>
+                            <div>
+                                <strong>Workshop & Training Center</strong>
+                                <p>Kawasan Industri Kreatif, Blok A5, Sukorejo, Kota Semarang</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i>📞</i>
+                            <div>
+                                <strong>Telepon</strong>
+                                <p>(024) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i>✉️</i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@xyz-company.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.800347199309!2d110.42012891477368!3d-6.917365995012187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b1c1c1c1c1d%3A0x1234567890abcdef!2sJl.%20Maju%20Berkarya%20No.%20123%2C%20Kota%20Semarang!5e0!3m2!1sen!2sid!4v1631234567890" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Pesan Anda</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
